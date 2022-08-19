@@ -2,6 +2,7 @@ package product;
 
 import java.sql.Connection;
 import java.util.ArrayList;
+import java.util.function.Function;
 
 import product.db.DBConnection;
 import product.domain.customer.CustomerDao;
@@ -28,6 +29,8 @@ public class MainApp {
 		ArrayList<OrderRespDto> orderRespDtoList = 
 				orderService.고객별주문목록보기(customerId);
 		
+
+		
 		for (int i = 0; i < orderRespDtoList.size(); i++) {
 			System.out.println(orderRespDtoList.get(0).getId());
 			System.out.println(orderRespDtoList.get(0).getUsername());
@@ -35,6 +38,7 @@ public class MainApp {
 			System.out.println(orderRespDtoList.get(0).getPrice());
 		}
 	}
+	
 
 }
 
