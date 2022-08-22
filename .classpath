@@ -10,5 +10,6 @@
 	<classpathentry kind="lib" path="lib/json-simple-1.1.1.jar"/>
 	<classpathentry kind="lib" path="lib/mariadb-java-client-3.0.7.jar"/>
 	<classpathentry kind="lib" path="lib/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.9.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
